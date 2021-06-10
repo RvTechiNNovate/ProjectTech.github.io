@@ -8,10 +8,11 @@ html {
   scroll-behavior: smooth;
 }
 .heading-animated {
-  height: 10vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color:#f4f4f4;
 }
 .heading-animated p {
   font-size: 3rem;
