@@ -67,7 +67,7 @@ background: #000 no-repeat fixed 50% 50%/cover;
 #header{
 	height: 25vh;
 	opacity: 0.8;
-	background-image: url(images/headerimage2.jpg);
+	background-image: url("images/headerimage2.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	/*background-position: center;*/
