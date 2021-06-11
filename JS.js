@@ -2,7 +2,7 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = ["Data Science", "Web Development",
-                     "Artificial Inteligence", "Python","Java","C++"];
+                     "Artificial Inteligence","Cyber Security", "Python","Java","C++"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text
@@ -40,6 +40,17 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+var prelaoder=document.getElementById("loading")
+  function myfunction(){
+    prelaoder.style.display='none';
+  }
+
+
+
+
+
+
 
 function validateForm() {
   var name =  document.getElementById('name').value;
