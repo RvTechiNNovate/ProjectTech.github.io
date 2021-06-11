@@ -82,6 +82,7 @@ background: #000 no-repeat fixed 50% 50%/cover;
   text-align: center;
   overflow: hidden;
 }
+
 .heading-animated p span.typed-text {
   font-size: 3rem;
   padding: 0.5rem;
@@ -98,9 +99,31 @@ background: #000 no-repeat fixed 50% 50%/cover;
   width: 3px;
   animation: blink 1s infinite;
 }
+
+
+
 .heading-animated p span.cursor.typing {
   animation: none;
 }
+
+@media screen and (max-width: 600px){
+	
+.heading-animated p {
+  font-size: 2rem;
+}
+.heading-animated p span.typed-text {
+  font-size: 2rem;
+  }
+
+	html{
+		font-size: 15px;
+	}
+	
+
+	
+}
+
+
 @keyframes blink {
   0%  { background-color: #ccc; }
   49% { background-color: #ccc; }
