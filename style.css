@@ -120,6 +120,12 @@ background: #000 no-repeat fixed 50% 50%/cover;
 	}
 	
 
+.pad{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
 	
 }
 
@@ -594,4 +600,23 @@ section:nth-child(2n+1){
 
 
 
+.img1{
+	width: 100px;
+	height: 100px;
+	border-radius: 10%;
+}
 
+.tags a span{
+	padding: 10px;
+
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.contributed{
+	font-size: 3rem;
+}
