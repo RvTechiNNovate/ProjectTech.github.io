@@ -84,4 +84,7 @@ function validateForm() {
 
 
 
+function AlertIt() {
+var answer = confirm ("Comming soon")
 
+}
