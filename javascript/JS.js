@@ -41,6 +41,8 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
 
+
+
 var prelaoder=document.getElementById("loading")
   function myfunction(){
     prelaoder.style.display='none';
