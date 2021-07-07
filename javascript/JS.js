@@ -125,13 +125,30 @@ function backToTop() {
 }
 
 
+
+
 let a;
 let t=document.getElementById('time');
 let d=document.getElementById('date');
 setInterval(() => {
     
     a=new Date();
-    t.innerHTML=a.getHours()+':'+ a.getMinutes() + ':'+ a.getSeconds() +"  "
+    ho= ("0"+a.getHours()).slice(-2)
+
+    b=parseInt(ho);
+    if (b>12){
+      g="PM"
+
+    }
+    else{
+      g="AM"
+    }
+    b=(b%12).toString()
+    mi=("0"+a.getMinutes()).slice(-2)
+    sec=("0"+a.getSeconds()).slice(-2)
+
+
+    t.innerHTML=b+':'+ mi + ':'+ sec +"  "+g
     
     
     let ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(a);
