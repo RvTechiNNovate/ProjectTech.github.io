@@ -123,3 +123,19 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+let a;
+let t=document.getElementById('time');
+let d=document.getElementById('date');
+setInterval(() => {
+    
+    a=new Date();
+    t.innerHTML=a.getHours()+':'+ a.getMinutes() + ':'+ a.getSeconds() +"  "
+    
+    
+    let ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(a);
+    let mo=a.toLocaleString('default',{month: 'short'})
+    let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(a);
+    d.innerHTML=da+'/'+mo+'/'+ye
+    }, 1000);
