@@ -131,12 +131,7 @@ let a;
 let t=document.getElementById('time');
 let d=document.getElementById('date');
 setInterval(() => {
-<<<<<<< HEAD
-    
-=======
-   
 
->>>>>>> d91a318b6ce57c6a5b7ae6989ee65a1a7b0a130a
     a=new Date();
     ho= ("0"+a.getHours()).slice(-2)
 
@@ -148,23 +143,18 @@ setInterval(() => {
     else{
       g="AM"
     }
-<<<<<<< HEAD
-    b=("0"+(b%12).toString()).slice(-2)
-=======
 
     b=("0"+(b%12).toString()).slice(-2)
 
->>>>>>> d91a318b6ce57c6a5b7ae6989ee65a1a7b0a130a
+
     mi=("0"+a.getMinutes()).slice(-2)
     sec=("0"+a.getSeconds()).slice(-2)
 
 
     t.innerHTML=b+':'+ mi + ':'+ sec +"  "+g
-    
-    
+
     let ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(a);
     let mo=a.toLocaleString('default',{month: 'short'})
     let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(a);
     d.innerHTML=da+'/'+mo+'/'+ye
     }, 1000);
-
