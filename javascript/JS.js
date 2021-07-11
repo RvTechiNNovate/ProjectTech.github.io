@@ -125,13 +125,16 @@ function backToTop() {
 }
 
 
+
+
 let a;
 let t=document.getElementById('time');
 let d=document.getElementById('date');
 setInterval(() => {
-    
-  a=new Date();
-    ho= a.getHours()
+   
+
+    a=new Date();
+    ho= ("0"+a.getHours()).slice(-2)
 
     b=parseInt(ho);
     if (b>12){
@@ -141,7 +144,9 @@ setInterval(() => {
     else{
       g="AM"
     }
+
     b=("0"+(b%12).toString()).slice(-2)
+
     mi=("0"+a.getMinutes()).slice(-2)
     sec=("0"+a.getSeconds()).slice(-2)
 
