@@ -143,7 +143,7 @@ setInterval(() => {
     else{
       g="AM"
     }
-    b=(b%12).toString()
+    b=("0"+(b%12).toString()).slice(-2)
     mi=("0"+a.getMinutes()).slice(-2)
     sec=("0"+a.getSeconds()).slice(-2)
 
@@ -156,3 +156,4 @@ setInterval(() => {
     let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(a);
     d.innerHTML=da+'/'+mo+'/'+ye
     }, 1000);
+

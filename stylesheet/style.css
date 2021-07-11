@@ -2,6 +2,7 @@
 body {
     min-height: 110vh;
     background-color: #4ca1af;
+	padding-top: 110px;
     background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
 }
 ::-webkit-scrollbar { width: 0 !important }
@@ -625,7 +626,11 @@ section:nth-child(2n+1){
 /*media screen*/
 
 @media screen and (max-width: 600px){
-	
+
+body{
+	padding-top: 140px;
+}
+
 .heading-animated p {
   font-size: 2rem;
 }
