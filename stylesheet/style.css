@@ -660,3 +660,50 @@ body{
 
 
 /*media screen end*/
+.social{
+    position:fixed;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    transform: translate(-250px,0);
+	z-index: 289639827;
+
+
+}
+
+
+.social a{
+    color: #fff;
+    background:rgb(0, 0, 0,0.4);
+    font-size:20px;
+    margin:5px;
+    padding:8px;
+    text-decoration: none;
+    width: 300px;
+    text-align:right;
+    border-radius: 50px;
+    transition:1s;
+    transition-property: transform;
+
+
+}
+
+.social a:hover{
+   
+    transform: translate(100px,0);
+
+}
+
+.social i{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size:30px;
+    width: 30px;
+    height: 30px;
+}
+
+.red{
+    color:skyblue;
+}
