@@ -654,7 +654,9 @@ body{
 
 }
 
-
+.form-responsive{
+	width: 450px;
+}
 	
 }
 
@@ -709,8 +711,3 @@ body{
 }
 
 
-
-.img-size{
-	height: 100px;
-	width: 100px;
-}
