@@ -711,3 +711,7 @@ body{
 }
 
 
+.project-container div{
+
+	border-radius: 5%;
+}
