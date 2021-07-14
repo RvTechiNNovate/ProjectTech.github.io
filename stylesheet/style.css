@@ -276,6 +276,7 @@ background: #000 no-repeat fixed 50% 50%/cover;
 
 .social-icon-container{
 	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 .social-icon li a img{
@@ -714,4 +715,8 @@ body{
 .project-container div{
 
 	border-radius: 5%;
+}
+
+.pad-bottom{
+	padding-bottom: 0px;
 }
