@@ -720,3 +720,7 @@ body{
 .pad-bottom{
 	padding-bottom: 0px;
 }
+
+.text-decoration-none a{
+	text-decoration: none;
+}
