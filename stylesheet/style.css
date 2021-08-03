@@ -23,6 +23,7 @@ text-align: center;
 
 
 .video{
+	margin:auto;
 	height: 300px;
 	width:  500px;
 
@@ -650,6 +651,8 @@ body{
 
 }
 .video{
+	
+	margin:auto;
 	height: 200px;
 	width:  350px;
 
